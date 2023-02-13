@@ -22,9 +22,6 @@ public class Hooks {
     public void afterScenario() throws IOException {
         tcs.base.initializeDriver().quit();
 
-
-
-
-
+        System.out.println("Prashant");
     }
 }
